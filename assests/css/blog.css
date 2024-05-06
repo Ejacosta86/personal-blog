@@ -18,6 +18,11 @@ p {
   border-bottom: 20px double darkgreen;
 }
 
+.blogPage {
+overflow: scroll;
+padding-left: 20px;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -87,7 +92,8 @@ input:checked + .slider:before{
   bottom: 0px;
   font-size: 20px;
 }
-h3 {
+
+h4 {
  text-align: center;
   margin: auto;
   padding-bottom: 10px;
@@ -96,24 +102,19 @@ h3 {
   border-top: 20px double darkgreen;
  }
 
+ .light {
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
 
+  .dark {
+    background-color: black;
+    color: white;
+  }
 
-
+.back {
+  border-radius: 50%;
+  background-color: #001b44;
+}
 
  
-/* 
-button {
-    background-color: #001b44; 
-    border-radius: 8px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-    letter-spacing: 0.21px;
-    line-height: 1px;
-    max-width: 200px;
-    padding: 20px 52px;
-    text-align: center;
-    margin: 0.6em auto;
-    position: relative;
-    left: 90%;  
-} */

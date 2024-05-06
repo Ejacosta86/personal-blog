@@ -4,55 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog</title>
-     <link rel="stylesheet" href="./assests/css/style.css">
-
+    <link rel="stylesheet" href="./assests/css/reset.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/form.css">
 </head>
-<body class="container dark">
 
-<header>
-    <!-- <button id="darkMode">
-        dark
-    </button> -->
-    <!-- leaving the h1 right now -->
-    <h1></h1> 
-    <div class="switch">
-       <input type="checkbox" id="theme-switcher">
-       <span class="slider round"></span>
-   </div>
+<body class="container light">
 
-</header>
+    <header>
+        <h1></h1>
+        <label class="switch">
+            <input type="checkbox" id="theme-switcher">
+            <span class="slider round"></span>
+        </label>
+    </header>
 
+    <main>
+        <figure class="img">
+        <!-- <div > -->
+            <img class="image1" src="assests/images/MyFirstBlog-bgromoved.png" alt="MyFirstBlog-bgromoved">
+        <!-- </div> -->
+        </figure>
+            
+            <div class="card">
+                <h2> Whats on your mind?</h2>
+                <form id="myForm" name="myForm">
+                    <label for="userbox">User Name</label>
+                    <textarea id="userbox" name="comments"></textarea>
 
-<main>
-    <figure>
-        <div class="img">
-            <img class="image1" src="./assests/images/MyFirstBlog.png" alt="MyFirstBlog picture">
-        </div>
-    </figure>
-    <!-- <section> -->
-      <li>
-        <div class="card">
-            <h2> Whats on your mind?</h2>
-            <form id="form">
-                <label for="msg">User Name</label>
-                <textarea id="userbox" name="comments"></textarea>
+                    <label for="titlebox">Title</label>
+                    <textarea id="titlebox" name="comments"></textarea>
 
-                <label for="msg">Title</label>
-                <textarea id="userbox" name="comments"></textarea>
+                    <label for="content">Content</label>
+                    <textarea id="contentbox" name="comments"></textarea>
+                    
+                    <input id="submitbtn" type="submit" value="Submit">
+                </form>
+            </div>
+           
+         
+    </main>
 
-                <label for="msg">Content</label>
-                <textarea id="contentbox" name="comments"></textarea>
-                
-                <input id="submitbtn" type="submit" value="Submit">
-            </form>
-        </div>
-      </li>
-    <!-- </section> -->
+    <!-- <div class="footer"></div> -->
 
-
-</main>
     
-<script src="./assets/js/logic.js">
-</script>
+<script src="assests/js/logic.js"></script>
+<script src="./assests/js/form.js"></script>
 </body>
 </html>
