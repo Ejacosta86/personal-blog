@@ -1,6 +1,6 @@
 const themeSwitcher = document.querySelector('#theme-switcher')
 const container = document.querySelector('.container');
-
+let mode = 'light'
  
 function displayBlogPosts() {
   
@@ -11,8 +11,8 @@ function displayBlogPosts() {
   
   blogList.forEach(element => {
     const child = document.createElement("div")
-    const title = document.createElement("h1")
-    const userName = document.createElement("h5")
+    const title = document.createElement("h2")
+    const userName = document.createElement("h3")
     const content = document.createElement("p")
 
     title.innerHTML = element.title
@@ -29,3 +29,13 @@ function displayBlogPosts() {
 
 }
 displayBlogPosts();
+
+themeSwitcher.addEventListener('click', function () {
+  if (mode === 'light') {
+    mode = 'dark';
+    container.setAttribute('class', 'dark');
+  } else {
+    mode = 'light';
+    container.setAttribute('class', 'light');
+  }
+});
