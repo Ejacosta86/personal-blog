@@ -134,7 +134,7 @@ select {
   display: inline-block;
   width: 50%;
   min-height: auto;
-  background: white;
+  background-color: transparent;
   padding-top: 20px;
   margin: 80px; 
   padding-right: 90px;

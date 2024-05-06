@@ -1,20 +1,5 @@
 const themeSwitcher = document.querySelector('#theme-switcher')
 const container = document.querySelector('.container');
-let mode = 'light'
-
-themeSwitcher.addEventListener('click', function () {
-    if (mode === 'light') {
-      mode = 'dark';
-      container.setAttribute('class', 'light');
-    } else {
-      mode = 'light';
-      container.setAttribute('class', 'dark');
-    }
-  });
-  
-  themeSwitcher.addEventListener('click', function() {
-    
-  })
 
  
 function displayBlogPosts() {
