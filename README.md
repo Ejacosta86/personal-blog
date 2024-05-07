@@ -7,13 +7,13 @@ During this code, I gained practical JavaScript experience, explore the Document
 
 ## Website
 
-click link to view [website](https://github.com/Ejacosta86/personal-blog).
+click link to view [website](https://ejacosta86.github.io/personal-blog/).
 
 
 
 ## Preview
 
-![example website]() //add image once website is done
+![example website](./assests/images/websitepreview.png)
 
 
 

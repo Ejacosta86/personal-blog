@@ -18,9 +18,12 @@ p {
   border-bottom: 20px double darkgreen;
 }
 
-.blogPage {
-overflow: scroll;
-padding-left: 20px;
+main {
+  flex-direction: column;
+  height: calc(100vh - 288px);
+  overflow-y: scroll;
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
 .switch {
@@ -86,11 +89,10 @@ input:checked + .slider:before{
 
 .footer {
   width: 100%;
-  position: absolute;
+  position: fixed;
   padding-bottom: 10px;
-  padding-left: 10px;
   bottom: 0px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
