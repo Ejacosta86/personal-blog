@@ -20,3 +20,8 @@ click link to view [website](https://ejacosta86.github.io/personal-blog/).
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Collabortation 
+
+Made within partnership with [Michael Duffey ](https://github.com/Mtduffey36/marketing-blog)
